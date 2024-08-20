@@ -1,0 +1,126 @@
+.container {
+  padding-bottom: 119px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 328px;
+  height: 226px;
+  padding-top: 15px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 21px;
+  overflow: hidden;
+  border: 1px #d1caca solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-content {
+  height: 151px;
+  padding-left: 17px;
+  background: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 19px;
+}
+
+.card-image {
+  width: 94px;
+  height: 151px;
+}
+.card-description {
+  width: 164px;
+  align-self: stretch;
+  padding-top: 6px;
+  padding-bottom: 65px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-left: 0.3px #656668 solid;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+}
+
+.card-title {
+  color: black;
+  font-size: 16px;
+  font-family: "Pretendard";
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.card-text {
+  color: black;
+  font-size: 14px;
+  font-family: "Pretendard";
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+.card-footer {
+  /* padding-bottom: 1.5px; */
+  border-top: 2px #fd5732 solid;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.card-difficulty {
+  width: 239px;
+  align-self: stretch;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 61px;
+  background: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.difficulty-text {
+  width: 76px;
+  height: 27px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: "Pretendard";
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.difficulty-star {
+  width: 30px;
+  height: 30px;
+}
+
+.card-points {
+  width: 98px;
+  align-self: stretch;
+  padding-top: 11px;
+  padding-bottom: 17px;
+  padding-left: 9px;
+  padding-right: 14px;
+  background: linear-gradient(90deg, #fd5732 0%, #ef7347 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: "Pretendard";
+  font-weight: 600;
+  word-wrap: break-word;
+}

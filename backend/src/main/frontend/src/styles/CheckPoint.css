@@ -1,0 +1,74 @@
+.screen {
+  padding-left: 13px;
+  padding-right: 12px;
+  width: 390px;
+  height: 753px;
+  position: relative;
+}
+.point-history-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.point-history-container {
+  width: 204px;
+  height: 100%;
+  padding-top: 26px;
+  border-bottom: 0.5px #fd5732 solid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.point-history-text {
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.points-history {
+  height: 304px;
+  left: 0;
+  top: 132px;
+  position: absolute;
+  border-top: 0.5px #fd5732 solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+.points-banner {
+  width: 192px;
+  height: 49px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 198px;
+  top: 77px;
+  position: absolute;
+  background: linear-gradient(90deg, #fd5732 0%, #ef7347 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.banner-text {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+  white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+}

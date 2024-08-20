@@ -1,0 +1,249 @@
+.screen {
+  padding-left: 13px;
+  padding-right: 12px;
+  width: 390px;
+  height: 753px;
+}
+/* 사용자정보 */
+.user-info {
+  width: 365px;
+  padding-bottom: 12px;
+  left: 13px;
+  top: 9px;
+  position: absolute;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+}
+
+.user-info-img {
+  width: 92px;
+  height: 70px;
+  padding-left: 11px;
+  padding-right: 11px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.user-info-img img {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(0deg, #d9d9d9 0%, #d9d9d9 100%);
+  border-radius: 50%;
+}
+
+.user-info-text {
+  padding-right: 9px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 57px;
+  display: flex;
+}
+
+.user-info-text div {
+  width: 82px;
+  height: 39px;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.user-contact,
+.user-id {
+  width: 365px;
+  height: 47px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  left: 13px;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.user-contact {
+  top: 100px; /* 기존 top: 18px + 9px 추가 */
+}
+
+.user-id {
+  top: 156px;
+}
+
+.user-contact div,
+.user-id div {
+  width: 302px;
+  height: 29px;
+  color: black;
+  font-size: 24px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+  word-wrap: break-word;
+}
+
+.delete-account {
+  width: 365px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 22px;
+  left: 13px;
+  top: 212px;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer; /* 클릭할 수 있음을 나타냅니다 */
+}
+
+.delete-account-img {
+  width: 92px;
+  height: 68px;
+  padding-left: 11px;
+  padding-right: 11px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.delete-account-img img {
+  width: 70px;
+  height: 68px;
+}
+
+.delete-account-text {
+  width: 230px;
+  height: 70px;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.arrow-icon {
+  width: 9px;
+  height: 25px;
+}
+
+.confirm-exit {
+  width: 365px;
+  height: 145px;
+  left: 13px;
+  top: 292px;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 0; /* 기본적으로 숨김 상태 */
+  visibility: hidden; /* 기본적으로 숨김 상태 */
+  transition: opacity 0.5s ease, visibility 0.5s ease; /* 부드러운 전환 효과 */
+}
+
+.confirm-exit.visible {
+  opacity: 1; /* 표시 상태 */
+  visibility: visible; /* 표시 상태 */
+}
+
+.confirm-exit-text {
+  width: 100%;
+  padding-left: 3px;
+  padding-right: 3px;
+  top: 16px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  text-align: center;
+  color: #828282;
+  font-size: 20px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+  letter-spacing: -2.2px; /* 자간을 조정 */
+}
+
+.confirm-exit-option {
+  left: 60px;
+  top: 97px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.confirm-exit-btn {
+  width: 85px;
+  border-bottom: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  color: black;
+  font-size: 20px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  cursor: pointer; /* 클릭할 수 있음을 나타냅니다 */
+}
+
+.confirm-exit-btn:first-child {
+  margin-right: 74px;
+}
+
+.header {
+  width: 390px;
+  height: 109px;
+  padding-top: 42px;
+  padding-bottom: 18px;
+  padding-left: 109px;
+  padding-right: 108px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: #ef7347;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.header-content {
+  width: 173px;
+  height: 49px;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.header-content img {
+  width: 50px;
+  height: 46px;
+}
+
+.header-title {
+  width: 113px;
+  height: 45px;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}

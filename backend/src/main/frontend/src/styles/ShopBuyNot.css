@@ -1,0 +1,31 @@
+.shopbuynot-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopbuynot-container {
+  width: 200px;
+  height: 34px;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #fd5732;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.shopbuynot-message {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Pretendard", sans-serif; /* Pretendard 폰트가 웹에서 사용 가능해야 합니다. */
+  font-weight: 400;
+  word-wrap: break-word;
+}

@@ -1,0 +1,89 @@
+.screen {
+  width: 390px;
+  height: 626px;
+  padding-left: 13px;
+  padding-right: 12px;
+  background: white;
+  position: relative;
+}
+.styled-div-name {
+  padding-top: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.styled-div {
+  width: 220px;
+  height: 36px;
+
+  background: #ef7347;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border-radius: 8px;
+
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styled-div-text {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.styled-div-name::before,
+.styled-div::before,
+.styled-div-text::before,
+.share-button::before,
+.share-button-text::before,
+.share-button-icon::before,
+.share-button-image::before {
+  content: none;
+}
+
+.share-button {
+  width: 154px;
+  height: 44px;
+  padding-left: 3px;
+  padding-right: 3px;
+  left: 234px;
+  top: 195px;
+  position: absolute;
+  background: linear-gradient(90deg, #fd5732 0%, #ef7347 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.share-button-text {
+  color: white;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+}
+
+.share-button-icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-button-image {
+  width: 35px;
+  height: 35px;
+}

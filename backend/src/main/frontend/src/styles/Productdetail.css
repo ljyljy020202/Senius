@@ -1,0 +1,28 @@
+.Productdetail {
+  margin: 0 auto;
+}
+
+.product-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* 화면 중앙에 위치하게 하기 위해 전체 높이를 차지 */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.product-detail {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}

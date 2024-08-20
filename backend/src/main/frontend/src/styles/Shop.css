@@ -1,0 +1,47 @@
+.screen {
+  width: 390px;
+  height: 753px;
+  padding-left: 13px;
+  padding-right: 12px;
+  background: white;
+  overflow-y: scroll; /* 세로 스크롤을 추가합니다. */
+}
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.screen::-webkit-scrollbar {
+  width: 0; /* 스크롤바의 너비를 0으로 설정하여 보이지 않게 합니다. */
+  background: transparent; /* 스크롤바 배경을 투명하게 설정합니다. */
+}
+
+/* Hide scrollbar for Firefox */
+.screen {
+  scrollbar-width: none; /* Firefox에서 스크롤바를 숨깁니다. */
+}
+
+.points-display-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.points-display-container {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(90deg, #fd5732 0%, #ef7347 100%);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.points-display-text {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+}

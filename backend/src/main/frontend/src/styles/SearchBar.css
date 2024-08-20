@@ -1,0 +1,22 @@
+.search-bar {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+}
+
+.search-input {
+  flex: 1;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.search-button {
+  padding: 5px;
+  background-color: #f36c24;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button img {
+  height: 20px;
+}

@@ -1,0 +1,44 @@
+.ShopReask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.green-gift-label {
+  height: 33px;
+  padding-top: 7.73px;
+  padding-bottom: 11.27px;
+  padding-left: 11px;
+  padding-right: 237px;
+  background: #809e4e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding-right: 11px; /* 오른쪽 패딩을 11px로 설정하여 요소 사이 간격이 유지되도록 합니다. */
+  justify-content: space-between; /* 요소 사이에 자동으로 공간을 배분합니다. */
+}
+
+.confirmation-dialog {
+  padding: 30px 12px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.confirmation-text {
+  align-self: stretch;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: Pretendard;
+  font-weight: 600;
+  word-wrap: break-word;
+}

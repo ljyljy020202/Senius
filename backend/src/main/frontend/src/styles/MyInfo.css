@@ -1,0 +1,102 @@
+.screen {
+  width: 390px;
+  height: 753px;
+  padding-left: 13px;
+  padding-right: 12px;
+  background: white;
+}
+
+.frame {
+  display: flex;
+  width: 365px;
+
+  align-items: center;
+
+  background-color: #ffffff;
+  padding: 12px 0px;
+
+  position: relative;
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.image-wrapper {
+  width: 92px;
+  height: 70px;
+  padding-left: 11px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-inner-wrapper {
+  flex: 1 1 0;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+.user-image {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(0deg, #d9d9d9 0%, #d9d9d9 100%);
+  border-radius: 50%;
+}
+
+.inner-image {
+  width: 57px;
+  height: 55px;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #000000;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  text-align: center;
+  width: auto;
+  padding-right: 9px;
+
+  gap: 42px;
+  white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+}
+
+.text-item {
+  height: 39px;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.text {
+  height: 39px;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  letter-spacing: -2.8px;
+}
+
+.image12 {
+  width: 9px;
+  height: 25px;
+
+  position: absolute;
+  right: 34px; /* 원하는 위치 조정 */
+  top: 50%; /* 가운데 정렬 (수직) */
+  transform: translateY(-50%); /* 정확한 가운데 정렬 */
+}

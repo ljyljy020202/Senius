@@ -1,0 +1,51 @@
+.basic-header-container {
+  width: 390px;
+  height: 109px;
+
+  padding-top: 42px;
+  padding-bottom: 18px;
+  padding-left: 109px;
+  padding-right: 108px;
+
+  background: #ef7347;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  justify-content: center;
+  align-items: center;
+  display: flex; /* 기존 inline-flex에서 flex로 변경 */
+}
+
+.basic-header-content {
+  width: 100%;
+  height: 100%;
+  /* position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex; */
+  display: flex; /* 기존 inline-flex에서 flex로 변경 */
+  flex-direction: row; /* 가로로 나란히 배치 */
+  justify-content: flex-start;
+  align-items: center; /* 세로 정렬을 가운데로 */
+}
+
+.basic-header-logo {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3px; /* 여러 스타일을 한 번에 정의 */
+}
+
+.basic-header-title {
+  margin-top: 4px;
+
+  width: auto; /* 너비를 자동으로 설정 */
+  height: auto; /* 높이를 자동으로 설정 */
+
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: Pretendard;
+  font-weight: 700;
+  word-wrap: break-word;
+  white-space: nowrap; /* 줄바꿈 없이 한 줄로 표시 */
+}

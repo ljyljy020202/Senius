@@ -1,0 +1,163 @@
+.top-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.point-container {
+  position: absolute; /* 절대 위치 지정 */
+  bottom: 0; /* 하단에 위치 */
+  right: 0; /* 오른쪽에 위치 */
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(90deg, #fd5732 0%, #ef7347 100%);
+  border-radius: 35px 0 0px 35px; /* 왼쪽 위, 오른쪽 위, 오른쪽 아래, 왼쪽 아래 */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.point-text {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: "Pretendard", sans-serif; /* Pretendard 폰트가 로드되어 있어야 합니다. */
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.product-card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 41px;
+}
+
+.product-card-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #ef7347;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  overflow: hidden;
+
+  gap: 10px;
+}
+
+.product-card-text {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+
+.product-img-container {
+  padding-top: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-styled-image {
+  width: 114px;
+  height: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-content {
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  padding-top: 30px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.gift-icon-box {
+  padding-top: 13px;
+}
+.gift-icon-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  paddingtop: 7.73px;
+  paddingbottom: 4px;
+  paddingleft: 11px;
+
+  background: #ef7347;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  gap: 164px;
+}
+
+.gift-icon-text,
+.gift-icon-points {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.gift-icon-text {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.gift-icon-points {
+  width: 100%;
+  height: 100%;
+}
+.product-button-box {
+  padding-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-button-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 19px;
+  padding-right: 20px;
+  background: #809e4e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.product-button-text {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}

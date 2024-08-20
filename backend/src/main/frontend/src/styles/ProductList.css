@@ -1,0 +1,9 @@
+.product-list {
+  background-color: white;
+<<<<<<< HEAD
+=======
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+>>>>>>> 6ff903770e183f99d0e35ef4f82102483efa26de
+}

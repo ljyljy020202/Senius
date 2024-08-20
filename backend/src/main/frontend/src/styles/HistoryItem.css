@@ -1,0 +1,100 @@
+.history-item {
+  width: 390px;
+  align-self: stretch;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: white;
+  border-bottom: 0.3px #fd5732 solid;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+}
+
+.history-info {
+  width: 235px;
+  height: 76px;
+  position: relative;
+  background: white;
+}
+
+.history-title {
+  width: 89px;
+  height: 26px;
+  left: 9px;
+  top: 13px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+}
+
+.history-date {
+  width: 145px;
+  height: 26px;
+  left: 9px;
+  top: 41px;
+  position: absolute;
+  color: #a0a0a0;
+  font-size: 16px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.history-description {
+  width: 74px;
+  height: 26px;
+  left: 161px;
+  top: 41px;
+  position: absolute;
+  color: #a0a0a0;
+  font-size: 16px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+}
+
+.history-points {
+  height: 76px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+  padding-right: 29px;
+  background: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  display: inline-flex;
+}
+
+.points-text {
+  height: 26px;
+  text-align: right;
+  font-size: 24px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.points-text.positive {
+  color: #e93558;
+}
+
+.points-text.negative {
+  color: #3574e9;
+}
+
+.points-status {
+  width: 29px;
+  height: 26px;
+  text-align: right;
+  font-size: 16px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+  white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+}
