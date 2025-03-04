@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/GiftItemImg.css";
+import "../styles/GiftItemImg.css";
 
 function GiftItemImg() {
   return (

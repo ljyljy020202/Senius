@@ -1,9 +1,9 @@
 import React from "react";
-import "./styles/ShopBuyNot.css";
-import HeaderShop from "./HeaderShop";
-import BottomBar from "./BottomBar";
+import "../styles/ShopBuyNot.css";
+import HeaderShop from "../HeaderShop";
+import BottomBar from "../BottomBar";
 import { useParams } from "react-router-dom";
-import { products } from "./component/ProductList";
+import { products } from "../component/ProductList";
 
 function ShopBuyNot() {
   const { id } = useParams();

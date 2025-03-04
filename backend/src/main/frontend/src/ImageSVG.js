@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { UserContext } from './UserContext'; // UserContext 파일을 올바르게 import하세요
+import { UserContext } from './user/UserContext'; // UserContext 파일을 올바르게 import하세요
 
 function ImageSVG() {
     const { userInfo } = useContext(UserContext); // UserContext에서 userInfo 가져오기

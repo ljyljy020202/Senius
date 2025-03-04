@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../src/styles/CogImprove.css";
-import CanPicture from "./assets/can.png";
+import "../styles/CogImprove.css";
+import CanPicture from "../assets/can.png";
 
 function CogImprove() {
   const navigate = useNavigate();

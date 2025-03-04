@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import "./styles/CheckBuy.css";
-import HeaderBasic from "./HeaderBasic";
+import "../styles/CheckBuy.css";
+import HeaderBasic from "../HeaderBasic";
 import GiftItem from "./GiftItem";
-import BottomBar from "./BottomBar";
+import BottomBar from "../BottomBar";
 import { UserPurchaseContext } from "./UserPurchaseContext";
 function CheckBuy() {
   const navigate = useNavigate();

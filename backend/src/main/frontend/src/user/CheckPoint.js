@@ -1,9 +1,9 @@
 import React from "react";
-import "./styles/CheckPoint.css";
+import "../styles/CheckPoint.css";
 import { useLocation } from "react-router-dom";
-import HeaderBasic from "./HeaderBasic";
+import HeaderBasic from "../HeaderBasic";
 import HistoryItem from "./HistoryItem";
-import BottomBar from "./BottomBar";
+import BottomBar from "../BottomBar";
 
 function CheckPoint() {
   const location = useLocation();

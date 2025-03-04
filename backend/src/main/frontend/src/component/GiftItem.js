@@ -9,7 +9,7 @@ import Img3 from "../assets/uut.png";
 import Img4 from "../assets/plant.png";
 import Img5 from "../assets/hongsam.png";
 import Img6 from "../assets/carrot.png";
-import { PointsContext } from "../PointsContext"; // PointsContext import
+import { PointsContext } from "../user/PointsContext"; // PointsContext import
 
 // 기프트 아이템 데이터
 const giftItems = [

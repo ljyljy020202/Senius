@@ -1,41 +1,41 @@
 import React from "react";
 import "./styles/App.css";
-import { UserProvider } from "./UserContext";
-import { PointsProvider } from "./PointsContext";
-import { UserPurchaseProvider } from "./UserPurchaseContext";
+import { UserProvider } from "./user/UserContext";
+import { PointsProvider } from "./user/PointsContext";
+import { UserPurchaseProvider } from "./user/UserPurchaseContext";
 
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
-import Shop from "./Shop";
-import ShopBuy from "./ShopBuy";
-import ShopReask from "./ShopReask";
-import Barcode from "./Barcode";
+import Shop from "./shop/Shop";
+import ShopBuy from "./shop/ShopBuy";
+import ShopReask from "./shop/ShopReask";
+import Barcode from "./user/Barcode";
 
-import MyInfo from "./MyInfo";
-import CheckBuy from "./CheckBuy";
-import CheckPoint from "./CheckPoint";
-import MyInfoExit from "./MyInfoExit";
+import MyInfo from "./user/MyInfo";
+import CheckBuy from "./user/CheckBuy";
+import CheckPoint from "./user/CheckPoint";
+import MyInfoExit from "./user/MyInfoExit";
 import BottomBar from "./BottomBar";
-import CheckBuyDetail from "./CheckBuyDetail";
+import CheckBuyDetail from "./user/CheckBuyDetail";
 import LoginSlider from "./LoginSlider";
 
-import ProductDetail from "./Productdetail";
+import ProductDetail from "./shop/Productdetail";
 
 import HeaderGame from "./HeaderGame";
-import Productdetail from "./Productdetail";
-import CogImprove from "./CogImprove";
-import CogImproveMain from "./CogImproveMain";
-import WordGame from "./WordGame";
+import Productdetail from "./shop/Productdetail";
+import CogImprove from "./game/CogImprove";
+import CogImproveMain from "./game/CogImproveMain";
+import WordGame from "./game/WordGame";
 import ProductItem from "./component/ProductItem";
 import { products } from "./component/ProductList";
 import HeaderBasic from "./HeaderBasic";
 import { GlobalStateProvider } from "./GlobalState";
-import PictureFindGame from "./PictureFindGame";
+import PictureFindGame from "./game/PictureFindGame";
 import HeaderShop from "./HeaderShop";
-import ShopBuyNot from "./ShopBuyNot";
+import ShopBuyNot from "./shop/ShopBuyNot";
 function App() {
   return (
       <GlobalStateProvider>

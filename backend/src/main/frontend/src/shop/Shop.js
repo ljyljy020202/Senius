@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import { useLocation } from "react-router-dom";
-import ProductList from "./component/ProductList";
-import Points from "./component/Points";
-import "./styles/Shop.css";
-import GiftItem from "./component/GiftItem";
-import BottomBar from "./BottomBar";
-import HeaderShop from "./HeaderShop";
-import { PointsContext } from "./PointsContext"; // PointsContext import
+import ProductList from "../component/ProductList";
+import Points from "../component/Points";
+import "../styles/Shop.css";
+import GiftItem from "../component/GiftItem";
+import BottomBar from "../BottomBar";
+import HeaderShop from "../HeaderShop";
+import { PointsContext } from "../user/PointsContext"; // PointsContext import
 
 const Shop = () => {
     const location = useLocation();

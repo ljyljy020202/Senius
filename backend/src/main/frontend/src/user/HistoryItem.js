@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./styles/HistoryItem.css";
+import "../styles/HistoryItem.css";
 
 function HistoryItem({ title, date, description, points, status, isPositive }) {
     return (

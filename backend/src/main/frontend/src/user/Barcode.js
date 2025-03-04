@@ -1,15 +1,15 @@
 import React from "react";
-import "./styles/Barcode.css";
+import "../styles/Barcode.css";
 import { useParams } from "react-router-dom";
-import Im1 from "./assets/바코드1.png";
-import Im2 from "./assets/바코드2.png";
-import Im3 from "./assets/바코드3.png";
-import Im4 from "./assets/바코드4.png";
-import Im5 from "./assets/바코드5.png";
-import Im6 from "./assets/바코드6.png";
-import ShareButton from "./assets/공유하기버튼.png";
-import BottomBar from "./BottomBar";
-import { ReactComponent as Share } from "./assets/share.svg";
+import Im1 from "../assets/바코드1.png";
+import Im2 from "../assets/바코드2.png";
+import Im3 from "../assets/바코드3.png";
+import Im4 from "../assets/바코드4.png";
+import Im5 from "../assets/바코드5.png";
+import Im6 from "../assets/바코드6.png";
+import ShareButton from "../assets/공유하기버튼.png";
+import BottomBar from "../BottomBar";
+import { ReactComponent as Share } from "../assets/share.svg";
 
 const barcodeImages = {
   1: Im1,

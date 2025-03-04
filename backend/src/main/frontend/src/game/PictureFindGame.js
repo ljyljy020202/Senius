@@ -4,22 +4,22 @@ import { useContext } from "react";
 
 import Modal from "react-modal";
 import axios from "axios"; // axios를 import합니다.
-import "./styles/PictureFindGame.css";
-import Img1 from "./assets/image 1701.png";
-import Img2 from "./assets/image 1702.png";
-import Img3 from "./assets/image 1703.png";
-import Img4 from "./assets/image 1704.png";
-import Img5 from "./assets/image 1705.png";
-import Img6 from "./assets/image 1706.png";
-import Img7 from "./assets/image 1707.png";
-import Img8 from "./assets/image 1708.png";
-import Img9 from "./assets/image 1709.png";
-import Img10 from "./assets/image 1710.png";
-import Img11 from "./assets/image 1711.png";
-import Img12 from "./assets/image 1712.png";
+import "../styles/PictureFindGame.css";
+import Img1 from "../assets/image 1701.png";
+import Img2 from "../assets/image 1702.png";
+import Img3 from "../assets/image 1703.png";
+import Img4 from "../assets/image 1704.png";
+import Img5 from "../assets/image 1705.png";
+import Img6 from "../assets/image 1706.png";
+import Img7 from "../assets/image 1707.png";
+import Img8 from "../assets/image 1708.png";
+import Img9 from "../assets/image 1709.png";
+import Img10 from "../assets/image 1710.png";
+import Img11 from "../assets/image 1711.png";
+import Img12 from "../assets/image 1712.png";
 import CogImproveMain from "./CogImproveMain";
 
-import { PointsContext } from "./PointsContext"; // PointsContext import
+import { PointsContext } from "../user/PointsContext"; // PointsContext import
 
 const images = [
   Img1,

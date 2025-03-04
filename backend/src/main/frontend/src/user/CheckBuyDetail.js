@@ -1,8 +1,8 @@
 import React from "react";
-import "./styles/CheckBuyDetail.css";
+import "../styles/CheckBuyDetail.css";
 import GiftItemImg from "./GiftItemImg";
-import BottomBar from "./BottomBar";
-import { ReactComponent as Share } from "./assets/share.svg";
+import BottomBar from "../BottomBar";
+import { ReactComponent as Share } from "../assets/share.svg";
 
 function CheckBuyDetail() {
   return (

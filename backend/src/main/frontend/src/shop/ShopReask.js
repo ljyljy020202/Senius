@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
-import "./styles/ShopReask.css";
-import { products } from "./component/ProductList";
+import "../styles/ShopReask.css";
+import { products } from "../component/ProductList";
 import { useParams, useNavigate } from "react-router-dom";
-import ProductItem from "./component/ProductItem";
-import HeaderShop from "./HeaderShop";
-import BottomBar from "./BottomBar";
-import { PointsContext } from "./PointsContext";
+import ProductItem from "../component/ProductItem";
+import HeaderShop from "../HeaderShop";
+import BottomBar from "../BottomBar";
+import { PointsContext } from "../user/PointsContext";
 import axios from "axios";
 
 function ShopReask() {

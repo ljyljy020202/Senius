@@ -5,7 +5,7 @@ import {ReactComponent as Idea} from "./assets/idea 1.svg";
 import {ReactComponent as ShoppingCart} from "./assets/shopping-cart (1) 1.svg";
 import {ReactComponent as MyInfo} from "./assets/info (2) 1.svg";
 import axios from "axios";
-import {UserContext} from "./UserContext";
+import {UserContext} from "./user/UserContext";
 
 const MenuItem = ({text, Icon, altText, onClick}) => {
     return (

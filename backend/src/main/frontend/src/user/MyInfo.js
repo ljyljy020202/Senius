@@ -1,15 +1,15 @@
 import React, { useContext, useState } from "react";
-import "./styles/MyInfo.css";
+import "../styles/MyInfo.css";
 import { useNavigate } from "react-router-dom";
-import ImageSVG from "./ImageSVG"; // ImageSVG 컴포넌트를 import
+import ImageSVG from "../ImageSVG"; // ImageSVG 컴포넌트를 import
 
-import { ReactComponent as Image12 } from "./assets/image 12.svg";
-import { ReactComponent as IconHand } from "./assets/free-icon-dollar-828515 1.svg";
-import { ReactComponent as IconProduct } from "./assets/free-icon-product-management-8922081.svg";
-import { ReactComponent as IconExit } from "./assets/free-icon-exit-13705466 1.svg";
+import { ReactComponent as Image12 } from "../assets/image 12.svg";
+import { ReactComponent as IconHand } from "../assets/free-icon-dollar-828515 1.svg";
+import { ReactComponent as IconProduct } from "../assets/free-icon-product-management-8922081.svg";
+import { ReactComponent as IconExit } from "../assets/free-icon-exit-13705466 1.svg";
 
-import HeaderBasic from "./HeaderBasic";
-import BottomBar from "./BottomBar";
+import HeaderBasic from "../HeaderBasic";
+import BottomBar from "../BottomBar";
 import { UserContext } from "./UserContext"; // UserContext import
 import { PointsContext } from "./PointsContext"; // PointsContext import
 

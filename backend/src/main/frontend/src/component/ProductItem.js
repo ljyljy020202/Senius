@@ -4,7 +4,7 @@ import { useContext } from "react";
 import "../styles/ProductItem.css";
 import HeaderShop from "../HeaderShop";
 import BottomBar from "../BottomBar";
-import { PointsContext } from "../PointsContext"; // PointsContext import
+import { PointsContext } from "../user/PointsContext"; // PointsContext import
 
 const ProductItem = ({ product, onClick }) => {
   const navigate = useNavigate();

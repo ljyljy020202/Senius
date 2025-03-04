@@ -1,11 +1,11 @@
 import React from "react";
-import "./styles/CogImproveMain.css";
+import "../styles/CogImproveMain.css";
 import { useNavigate } from "react-router-dom";
-import HeaderGame from "./HeaderGame";
-import BottomBar from "./BottomBar";
-import Game1 from "./assets/image 1723.png";
-import Game2 from "./assets/image 1734.png";
-import Star from "./assets/star 1.png";
+import HeaderGame from "../HeaderGame";
+import BottomBar from "../BottomBar";
+import Game1 from "../assets/image 1723.png";
+import Game2 from "../assets/image 1734.png";
+import Star from "../assets/star 1.png";
 import PictureFindGame from "./PictureFindGame";
 import WordGame from "./WordGame";
 

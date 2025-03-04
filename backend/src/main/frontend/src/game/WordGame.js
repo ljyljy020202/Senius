@@ -2,8 +2,8 @@ import React, { useState, useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios"; // axios를 import합니다.
 import Modal from "react-modal";
-import "../src/styles/WordGame.css";
-import { PointsContext } from "./PointsContext"; // PointsContext import
+import "../styles/WordGame.css";
+import { PointsContext } from "../user/PointsContext"; // PointsContext import
 
 const WordGame = () => {
   const { points } = useContext(PointsContext); // PointsContext에서 points 가져오기

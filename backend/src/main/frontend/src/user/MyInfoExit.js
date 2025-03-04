@@ -1,12 +1,12 @@
 import React, {useContext} from "react";
 import { useState } from "react";
-import "./styles/MyInfoExit.css";
-import HeaderBasic from "./HeaderBasic";
-import BottomBar from "./BottomBar";
-import { ReactComponent as Unfollow } from "./assets/free-icon-unfollow-16973756.svg";
-import { ReactComponent as Image12 } from "./assets/image 12.svg";
+import "../styles/MyInfoExit.css";
+import HeaderBasic from "../HeaderBasic";
+import BottomBar from "../BottomBar";
+import { ReactComponent as Unfollow } from "../assets/free-icon-unfollow-16973756.svg";
+import { ReactComponent as Image12 } from "../assets/image 12.svg";
 import {UserContext} from "./UserContext";
-import ImageSVG from "./ImageSVG";
+import ImageSVG from "../ImageSVG";
 import axios from "axios";
 
 function MyInfoExit() {
