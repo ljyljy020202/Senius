@@ -13,7 +13,7 @@ function LoginSlider() {
     const { dispatch } = useGlobalState(); // 전역 상태의 dispatch를 가져옵니다.
     const navigete=useNavigate();
     const handleKakaoLoginClick = () => {
-        navigete("/game"); // Navigate to /game
+        navigete("/login"); // Navigate to /game
     };
 
     const slideProps = useSpring({
